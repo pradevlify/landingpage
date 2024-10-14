@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Professional Landing Page</title>
+    <script src="https://kit.fontawesome.com/645784b0fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header with Navigation Menu -->
+    <header>
+      <nav>
+          <div class="logo">Tech_wave</div>
+          <ul class="nav-links">
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+      </nav>
+  </header>
+  
+  <!-- banner  -->
+  <section class="carousel">
+    <div class="carousel-container">
+        <!-- Slide 1 -->
+        <div class="carousel-slide">
+            <img src="./images/banner.png" alt="Banner Image 1">
+            <div class="banner-content">
+                <p>Your journey to excellence starts here.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+            <img src="./images/banner2.png" alt="Banner Image 2">
+            <div class="banner-content">
+                <p>Transform your business with our solutions.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+            <img src="./images/banner3.png" alt="Banner Image 3">
+            <div class="banner-content">
+                <p>Innovate, Grow, Succeed.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Dots -->
+    <div class="carousel-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+
+  
+    
+    <!--  Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <img src="./images/web-dev.jpg" alt="Service 1">
+                <h3>web development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem soluta doloribus officia accusantium? Dolorum reiciendis dolore reprehenderit accusamus voluptas! Dolorem.</p>
+            </div>
+            <div class="service-item">
+                <img src="./images/app.png" alt="Service 2">
+                <h3>App Devlopment</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora facilis nostrum iusto ullam blanditiis ratione consequatur aperiam ipsum minus!/p>
+            </div>
+            <div class="service-item">
+                <img src="./images/aiml.png" alt="Service 3">
+                <h3>Artificial intelligence & machine learning</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum iste ad et doloremque modi dolorem eum dolor reiciendis facilis.</p>
+            </div>
+            <div class="service-item">
+                <img src="./images/testing.png" alt="Service 4">
+                <h3>software testing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis labore culpa officia sapiente nemo totam. Fugiat impedit adipisci veritatis.</p>
+            </div>
+            <div class="service-item">
+                <img src="./images/cloud.avif" alt="Service 5">
+                <h3>cloud services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui neque beatae possimus est delectus. Ullam sapiente facilis porro iusto nostrum!</p>
+            </div>
+            <div class="service-item">
+                <img src="./images/digital marketing.jpg" alt="Service 6">
+                <h3>digital marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, cupiditate. Officia consectetur culpa nesciunt sapiente, corporis veniam est quos quod.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <div class="testimonial-slider" id="testimonials">
+      <div class="testimonial-header">
+        <h2 >Why Our Clients Can’t Stop Raving About Us!</h2>
+       
+    </div>
+      <div class="slides">
+          <div class="testimonial-card">
+              <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+              <h3 class="client-name">John Doe</h3>
+              <p class="client-desc">"The service was absolutely wonderful. I would recommend this to everyone!"</p>
+              <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+              <h3 class="client-name">Jane Smith</h3>
+              <p class="client-desc">"Amazing product, and the customer support is top-notch."</p>
+              <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+              <h3 class="client-name">Alice Johnson</h3>
+              <p class="client-desc">"I had a great experience, and I'm very satisfied with the results!"</p>
+              <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+              <h3 class="client-name">Michael Brown</h3>
+              <p class="client-desc">"This product has changed my life for the better!"</p>
+              <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+              <h3 class="client-name">Emma Wilson</h3>
+              <p class="client-desc">"Fantastic experience, I will definitely be back!"</p>
+              <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+              <h3 class="client-name">James Taylor</h3>
+              <p class="client-desc">"A truly exceptional service that I cannot recommend enough!"</p>
+              <div class="social-icons">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="testimonial-card">
+            <img src="./images/avtar.webp" alt="Client Image" class="client-img">
+            <h3 class="client-name">James parker</h3>
+            <p class="client-desc">"A truly exceptional service that I cannot recommend enough!"</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+      </div>
+  </div>
+     
+    
+      <!-- Navigation Buttons -->
+      <div class="nav-buttons">
+          <button class="nav-button left" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+          <button class="nav-button right" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+  </div>
+
+    <!-- Frequently Asked Questions Section -->
+    <section id="faq" class="faq">
+        <h2 class="faquetion">Frequently Asked Questions</h2>
+    
+        <div class="faq-item">
+            <input type="checkbox" id="faq1" class="faq-toggle">
+            <label for="faq1" class="faq-question">
+              How do you ensure the security of the software you develop?<span class="faq-symbol">+</span>
+            </label>
+            <div class="faq-answer">
+                <p>Security is a top priority in every project. We follow industry best practices such as encryption, secure coding standards, and rigorous testing to ensure that all software meets the highest security standards. We also offer ongoing maintenance and updates to keep your systems secure.</p>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <input type="checkbox" id="faq2" class="faq-toggle">
+            <label for="faq2" class="faq-question">
+              Can you customize a solution to fit our specific business needs? <span class="faq-symbol">+</span>
+            </label>
+            <div class="faq-answer">
+                <p>Absolutely! We specialize in delivering fully customized software solutions that align with your business goals. Whether you need a new platform built from scratch or enhancements to an existing system, our team will work closely with you to ensure the solution meets your exact requirements.</p>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <input type="checkbox" id="faq3" class="faq-toggle">
+            <label for="faq3" class="faq-question">
+              What is your typical project timeline for software development? <span class="faq-symbol">+</span>
+            </label>
+            <div class="faq-answer">
+                <p>The timeline for each project varies depending on the scope and complexity of the requirements. For small to medium-sized projects, development can take anywhere from 2 to 6 months. We work in an agile manner, keeping you updated with regular progress and allowing for adjustments throughout the development process to ensure timely delivery.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+          <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" required>
+              <input type="tel" name="phone" placeholder="Your Phone Number" required>
+          </div>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+      </form>
+  </section>
+  
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-logo">
+                  <h3>Tech_wave</h3>
+                  <p>&copy; 2024 My Company. All rights reserved.</p>
+              </div>
+              <div class="footer-nav">
+                  <a href="#services">Services</a>
+                  <a href="#about">About Us</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#privacy">Privacy Policy</a>
+              </div>
+              <div class="footer-social">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+<script src="script.js"></script>
+</body>
+</html>
